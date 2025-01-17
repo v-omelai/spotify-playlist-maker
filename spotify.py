@@ -34,7 +34,3 @@ class Spotify:
         if items:
             self.s.playlist_remove_all_occurrences_of_items(playlist_id=playlist['id'], items=items)
         return self.s.current_user_unfollow_playlist(playlist_id=playlist['id'])
-
-
-if __name__ == '__main__':
-    s = Spotify()

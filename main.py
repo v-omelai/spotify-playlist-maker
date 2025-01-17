@@ -64,8 +64,7 @@ class SpotifyPlaylistStack(TerraformStack):
         TerraformOutput(self, 'created-keywords', value=joined)
 
 
-app = App()
-
-SpotifyPlaylistStack(app, 'spotify-playlist-maker')
-
-app.synth()
+if __name__ == '__main__':
+    app = App()
+    SpotifyPlaylistStack(app, 'spotify-playlist-maker')
+    app.synth()

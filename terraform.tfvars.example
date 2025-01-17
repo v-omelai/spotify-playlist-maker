@@ -1,0 +1,3 @@
+name = "Your Spotify playlist name"
+description = "Your Spotify playlist description"
+keywords = ["A", "list", "of", "keywords", "to", "search", "for", "songs"]

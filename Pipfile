@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cdktf = "~=0.20.11"
+pytest = "*"
+cdktf-cdktf-provider-null = "~=10.0.1"
+spotipy = "*"
+python-decouple = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"

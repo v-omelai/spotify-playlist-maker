@@ -45,7 +45,7 @@ Use the following commands to manage your Terraform deployment:
 
 1. **Deploy the Configuration**  
    Apply the configuration and create resources on Spotify:  
-   ```cdktf deploy```
+   ```cdktf deploy --var-file=terraform/terraform.tfvars```
 2. **Destroy the Configuration**  
    Remove the resources managed by Terraform:  
-   ```cdktf destroy```
+   ```cdktf destroy --var-file=terraform/terraform.tfvars```
